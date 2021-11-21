@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css"
 interface Props {
 
         text?: any,
@@ -14,7 +13,7 @@ const Button=({
 }:Props):React.ReactElement=>{
     return (
         <div className={qeId}>
-          <button className="btn" style={{backgroundColor:color}}>{text}</button>
+          <button className="btn">{text}</button>
         </div>
       );
 }
