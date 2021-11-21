@@ -1,5 +1,5 @@
 import React from "react";
-
+import styles from "./index.less"
 interface Props {
 
         text?: any,
@@ -14,7 +14,7 @@ const Button=({
 }:Props):React.ReactElement=>{
     return (
         <div className={qeId}>
-          <button style={{backgroundColor:color}}> {text}</button>
+          <button className="btn"> {text}</button>
         </div>
       );
 }
